@@ -42,7 +42,7 @@ console.log(c1 > 10 && c1 < 25 )
 console.log(c1 <= 10 || c2 == 23)
 console.log(! (c1 > c2)) 
 
-
+// Ternary Operator:
 let num1 = 25;
 let result = (num1 > 0) ? "Positive" : (num1 < 0) ? "Negative" : "Zero";
 console.log(result)
