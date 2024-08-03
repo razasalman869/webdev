@@ -3,27 +3,34 @@ const salary = 40000
 
 // console.log(`My name is ${Firstname} and my salary ${salary}`);
 
-const myname = "salman raza and i am a developer"
-const desc = "       I am doing web developing using HTMl, CSS < JAVASCRipst    "
+const myname = "salman"
 // console.log(myname[0]);
-console.log(myname.length);
-console.log(myname.charAt(0));
-console.log(myname.charCodeAt(2));
-console.log(myname.slice(2,8));
-console.log(myname.slice(-12, -7));
-console.log(myname.substring(0, 10));
-console.log(myname.toUpperCase);
-console.log(myname.toLowerCase);
-console.log(myname.toLocaleLowerCase);
-console.log(desc.trim);
-console.log(desc.trimStart);
-console.log(desc.trimEnd);
+// console.log(myname.length);
+let gamename = "my name is salman raza "
+// console.log(name.length);
+// console.log(name);
+// console.log(typeof name);
+console.log(gamename.at(0));
+console.log(gamename.slice(-2, 10));
 
+console.log(gamename.toLowerCase());
 
+const newString = gameName.substring(0, 4)
+console.log(newString);
 
+const anotherString = gameName.slice(-8, 4)
+console.log(anotherString);
 
+const newStringOne = "   hitesh    "
+console.log(newStringOne);
+console.log(newStringOne.trim());
 
+const url = "https://hitesh.com/hitesh%20choudhary"
 
+console.log(url.replace('%20', '-'))
 
+console.log(url.includes('sundar'))
 
+console.log(gameName.split('-'));
 
+console.log(gameName.Firstname());
